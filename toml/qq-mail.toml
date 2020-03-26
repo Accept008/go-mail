@@ -1,0 +1,10 @@
+active = "qq-email.toml"
+MongoDbHost = ["sonicmoving-service-mongodb:3717"]
+MongoDbName = "name"
+MongoDbUser = "user"
+MongoDbPassword = "password"
+MailHost = "smtp.qq.com"
+MailPort = 465
+MailFrom = "xx@qq.com" # 发件人
+MailPassword = "xx" #qq授权码
+MailTo = ["aa@qq.com","bb@qq.com"] #收件人

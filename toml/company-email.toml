@@ -1,0 +1,10 @@
+active = "compoany-mail.toml"
+MongoDbHost = ["sonicmoving-service-mongodb:3717"]
+MongoDbName = "name"
+MongoDbUser = "user"
+MongoDbPassword = "password"
+MailHost = "smtp.exmail.qq.com"
+MailPort = 465
+MailFrom = "xxx@xxx.cn"
+MailPassword = "xxxx"
+MailTo = ["xxx@xx.cn","xx@qq.com"]
