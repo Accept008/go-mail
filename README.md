@@ -2,12 +2,11 @@
     Ubuntu 18.04.3 LTS
     
 ### 镜像打包
-    <p align="center"><img src="/readme.png" alt="Godog logo" style="width:250px;" /></p>
-    
     先打包main,再进行镜像打包
     
     GOOS=linux go build -o main main.go
     docker build -t go-mail:1.0.1 .
+    参考 -> readme.png 
     eg：
         root@chen:/home/chen/go/src/github.com/go-mail# GOOS=linux go build -o main main.go
         root@chen:/home/chen/go/src/github.com/go-mail# docker build -t go-mail:1.0.1 .
